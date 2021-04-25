@@ -1,0 +1,300 @@
+-------------- Test T1 --------------
+OK	 +10 pts	 HASH_BATCH_INSERT, 1000000, inf, 96.4265
+OK	 +10 pts	 HASH_BATCH_GET, 1000000, inf, 96.4265
+TOTAL	 +20 pts
+
+-------------- Test T2 --------------
+OK	 +5 pts	 HASH_BATCH_INSERT, 2000000, 100, 96.426
+OK	 +5 pts	 HASH_BATCH_GET, 2000000, 200, 96.426
+TOTAL	 +10 pts
+
+-------------- Test T3 --------------
+OK	 +5 pts	 HASH_BATCH_INSERT, 2000000, 200, 96.426
+OK	 +5 pts	 HASH_BATCH_INSERT, 2000000, 50, 96.4255
+OK	 +5 pts	 HASH_BATCH_GET, 2000000, 200, 96.4255
+OK	 +5 pts	 HASH_BATCH_GET, 2000000, 100, 96.4255
+TOTAL	 +20 pts
+
+-------------- Test T4 --------------
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, inf, 95.6671
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, inf, 95.6665
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, 62.5, 90.399
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, 35.7143, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, 250, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, 125, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, 250, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, 62.5, 95.6663
+TOTAL	 +40 pts
+
+
+TOTAL gpu_hashtable  90/90
+-------------- Test T1 --------------
+OK	 +10 pts	 HASH_BATCH_INSERT, 1000000, 100, 96.4265
+OK	 +10 pts	 HASH_BATCH_GET, 1000000, 100, 96.4265
+TOTAL	 +20 pts
+
+-------------- Test T2 --------------
+OK	 +5 pts	 HASH_BATCH_INSERT, 2000000, inf, 96.426
+OK	 +5 pts	 HASH_BATCH_GET, 2000000, inf, 96.426
+TOTAL	 +10 pts
+
+-------------- Test T3 --------------
+OK	 +5 pts	 HASH_BATCH_INSERT, 2000000, inf, 96.426
+OK	 +5 pts	 HASH_BATCH_INSERT, 2000000, inf, 96.4255
+OK	 +5 pts	 HASH_BATCH_GET, 2000000, inf, 96.4255
+OK	 +5 pts	 HASH_BATCH_GET, 2000000, inf, 96.4255
+TOTAL	 +20 pts
+
+-------------- Test T4 --------------
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, inf, 95.6671
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, inf, 95.6665
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, inf, 90.399
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, 35.7143, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, 125, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, 250, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, 125, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, 62.5, 95.6663
+TOTAL	 +40 pts
+
+
+TOTAL gpu_hashtable  90/90
+-------------- Test T1 --------------
+OK	 +10 pts	 HASH_BATCH_INSERT, 1000000, 50, 96.4265
+OK	 +10 pts	 HASH_BATCH_GET, 1000000, inf, 96.4265
+TOTAL	 +20 pts
+
+-------------- Test T2 --------------
+OK	 +5 pts	 HASH_BATCH_INSERT, 2000000, 100, 96.426
+OK	 +5 pts	 HASH_BATCH_GET, 2000000, 100, 96.426
+TOTAL	 +10 pts
+
+-------------- Test T3 --------------
+OK	 +5 pts	 HASH_BATCH_INSERT, 2000000, inf, 96.426
+OK	 +5 pts	 HASH_BATCH_INSERT, 2000000, inf, 96.4255
+OK	 +5 pts	 HASH_BATCH_GET, 2000000, inf, 96.4255
+OK	 +5 pts	 HASH_BATCH_GET, 2000000, inf, 96.4255
+TOTAL	 +20 pts
+
+-------------- Test T4 --------------
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, inf, 95.6671
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, inf, 95.6665
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, inf, 90.399
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, 35.7143, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, 250, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, 250, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, 125, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, 83.3333, 95.6663
+TOTAL	 +40 pts
+
+
+TOTAL gpu_hashtable  90/90
+-------------- Test T1 --------------
+OK	 +10 pts	 HASH_BATCH_INSERT, 1000000, 50, 96.4265
+OK	 +10 pts	 HASH_BATCH_GET, 1000000, 100, 96.4265
+TOTAL	 +20 pts
+
+-------------- Test T2 --------------
+OK	 +5 pts	 HASH_BATCH_INSERT, 2000000, inf, 96.426
+OK	 +5 pts	 HASH_BATCH_GET, 2000000, inf, 96.426
+TOTAL	 +10 pts
+
+-------------- Test T3 --------------
+OK	 +5 pts	 HASH_BATCH_INSERT, 2000000, inf, 96.426
+OK	 +5 pts	 HASH_BATCH_INSERT, 2000000, inf, 96.4255
+OK	 +5 pts	 HASH_BATCH_GET, 2000000, inf, 96.4255
+OK	 +5 pts	 HASH_BATCH_GET, 2000000, inf, 96.4255
+TOTAL	 +20 pts
+
+-------------- Test T4 --------------
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, inf, 95.6671
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, inf, 95.6665
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, inf, 90.399
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, 41.6667, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, inf, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, 250, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, 125, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, 83.3333, 95.6663
+TOTAL	 +40 pts
+
+
+TOTAL gpu_hashtable  90/90
+-------------- Test T1 --------------
+OK	 +10 pts	 HASH_BATCH_INSERT, 1000000, inf, 96.4265
+OK	 +10 pts	 HASH_BATCH_GET, 1000000, 100, 96.4265
+TOTAL	 +20 pts
+
+-------------- Test T2 --------------
+OK	 +5 pts	 HASH_BATCH_INSERT, 2000000, inf, 96.426
+OK	 +5 pts	 HASH_BATCH_GET, 2000000, inf, 96.426
+TOTAL	 +10 pts
+
+-------------- Test T3 --------------
+OK	 +5 pts	 HASH_BATCH_INSERT, 2000000, inf, 96.426
+OK	 +5 pts	 HASH_BATCH_INSERT, 2000000, 100, 96.4255
+OK	 +5 pts	 HASH_BATCH_GET, 2000000, inf, 96.4255
+OK	 +5 pts	 HASH_BATCH_GET, 2000000, 100, 96.4255
+TOTAL	 +20 pts
+
+-------------- Test T4 --------------
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, inf, 95.6671
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, inf, 95.6665
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, inf, 90.399
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, 41.6667, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, 83.3333, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, 250, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, 83.3333, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, 83.3333, 95.6663
+TOTAL	 +40 pts
+
+
+TOTAL gpu_hashtable  90/90
+-------------- Test T1 --------------
+OK	 +10 pts	 HASH_BATCH_INSERT, 1000000, 100, 96.4265
+OK	 +10 pts	 HASH_BATCH_GET, 1000000, 100, 96.4265
+TOTAL	 +20 pts
+
+-------------- Test T2 --------------
+OK	 +5 pts	 HASH_BATCH_INSERT, 2000000, inf, 96.426
+OK	 +5 pts	 HASH_BATCH_GET, 2000000, inf, 96.426
+TOTAL	 +10 pts
+
+-------------- Test T3 --------------
+OK	 +5 pts	 HASH_BATCH_INSERT, 2000000, inf, 96.426
+OK	 +5 pts	 HASH_BATCH_INSERT, 2000000, 100, 96.4255
+OK	 +5 pts	 HASH_BATCH_GET, 2000000, inf, 96.4255
+OK	 +5 pts	 HASH_BATCH_GET, 2000000, 100, 96.4255
+TOTAL	 +20 pts
+
+-------------- Test T4 --------------
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, inf, 95.6671
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, inf, 95.6665
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, inf, 90.399
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, 41.6667, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, inf, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, 250, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, 125, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, 83.3333, 95.6663
+TOTAL	 +40 pts
+
+
+TOTAL gpu_hashtable  90/90
+-------------- Test T1 --------------
+OK	 +10 pts	 HASH_BATCH_INSERT, 1000000, 50, 96.4265
+OK	 +10 pts	 HASH_BATCH_GET, 1000000, inf, 96.4265
+TOTAL	 +20 pts
+
+-------------- Test T2 --------------
+OK	 +5 pts	 HASH_BATCH_INSERT, 2000000, 100, 96.426
+OK	 +5 pts	 HASH_BATCH_GET, 2000000, 100, 96.426
+TOTAL	 +10 pts
+
+-------------- Test T3 --------------
+OK	 +5 pts	 HASH_BATCH_INSERT, 2000000, 100, 96.426
+OK	 +5 pts	 HASH_BATCH_INSERT, 2000000, 66.6667, 96.4255
+OK	 +5 pts	 HASH_BATCH_GET, 2000000, 200, 96.4255
+OK	 +5 pts	 HASH_BATCH_GET, 2000000, 66.6667, 96.4255
+TOTAL	 +20 pts
+
+-------------- Test T4 --------------
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, inf, 95.6671
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, inf, 95.6665
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, 27.7778, 90.399
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, inf, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, 83.3333, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, inf, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, 250, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, 83.3333, 95.6663
+TOTAL	 +40 pts
+
+
+TOTAL gpu_hashtable  90/90
+-------------- Test T1 --------------
+OK	 +10 pts	 HASH_BATCH_INSERT, 1000000, 100, 96.4265
+OK	 +10 pts	 HASH_BATCH_GET, 1000000, 100, 96.4265
+TOTAL	 +20 pts
+
+-------------- Test T2 --------------
+OK	 +5 pts	 HASH_BATCH_INSERT, 2000000, 200, 96.426
+OK	 +5 pts	 HASH_BATCH_GET, 2000000, 200, 96.426
+TOTAL	 +10 pts
+
+-------------- Test T3 --------------
+OK	 +5 pts	 HASH_BATCH_INSERT, 2000000, 200, 96.426
+OK	 +5 pts	 HASH_BATCH_INSERT, 2000000, 66.6667, 96.4255
+OK	 +5 pts	 HASH_BATCH_GET, 2000000, 100, 96.4255
+OK	 +5 pts	 HASH_BATCH_GET, 2000000, 100, 96.4255
+TOTAL	 +20 pts
+
+-------------- Test T4 --------------
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, inf, 95.6671
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, inf, 95.6665
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, 9.25926, 90.399
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, inf, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, inf, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, inf, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, inf, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, inf, 95.6663
+TOTAL	 +40 pts
+
+
+TOTAL gpu_hashtable  90/90
+-------------- Test T1 --------------
+OK	 +10 pts	 HASH_BATCH_INSERT, 1000000, inf, 96.4265
+OK	 +10 pts	 HASH_BATCH_GET, 1000000, 100, 96.4265
+TOTAL	 +20 pts
+
+-------------- Test T2 --------------
+OK	 +5 pts	 HASH_BATCH_INSERT, 2000000, inf, 96.426
+OK	 +5 pts	 HASH_BATCH_GET, 2000000, inf, 96.426
+TOTAL	 +10 pts
+
+-------------- Test T3 --------------
+OK	 +5 pts	 HASH_BATCH_INSERT, 2000000, inf, 96.426
+OK	 +5 pts	 HASH_BATCH_INSERT, 2000000, inf, 96.4255
+OK	 +5 pts	 HASH_BATCH_GET, 2000000, inf, 96.4255
+OK	 +5 pts	 HASH_BATCH_GET, 2000000, inf, 96.4255
+TOTAL	 +20 pts
+
+-------------- Test T4 --------------
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, inf, 95.6671
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, inf, 95.6665
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, 83.3333, 90.399
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, 41.6667, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, 250, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, 125, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, 125, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, 62.5, 95.6663
+TOTAL	 +40 pts
+
+
+TOTAL gpu_hashtable  90/90
+-------------- Test T1 --------------
+OK	 +10 pts	 HASH_BATCH_INSERT, 1000000, 50, 96.4265
+OK	 +10 pts	 HASH_BATCH_GET, 1000000, 100, 96.4265
+TOTAL	 +20 pts
+
+-------------- Test T2 --------------
+OK	 +5 pts	 HASH_BATCH_INSERT, 2000000, 100, 96.426
+OK	 +5 pts	 HASH_BATCH_GET, 2000000, 100, 96.426
+TOTAL	 +10 pts
+
+-------------- Test T3 --------------
+OK	 +5 pts	 HASH_BATCH_INSERT, 2000000, 100, 96.426
+OK	 +5 pts	 HASH_BATCH_INSERT, 2000000, 100, 96.4255
+OK	 +5 pts	 HASH_BATCH_GET, 2000000, 100, 96.4255
+OK	 +5 pts	 HASH_BATCH_GET, 2000000, 66.6667, 96.4255
+TOTAL	 +20 pts
+
+-------------- Test T4 --------------
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, inf, 95.6671
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, inf, 95.6665
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, inf, 90.399
+OK	 +5 pts	 HASH_BATCH_INSERT, 2500000, 35.7143, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, 125, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, 125, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, 250, 95.6663
+OK	 +5 pts	 HASH_BATCH_GET, 2500000, 50, 95.6663
+TOTAL	 +40 pts
+
+
+TOTAL gpu_hashtable  90/90
